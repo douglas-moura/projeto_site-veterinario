@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		@apply m-0 p-0 box-border scroll-smooth
+	}
+	
+	body {
+		@apply font-fredoka text-gray-600 text-base
+	}
+	
+	main {
+		@apply min-h-dvh w-full m-0 p-0 overflow-hidden pt-20
+	}
+	
+	h1, h2, h3 {
+		@apply text-gray-700 font-extrabold
+	}
+	
+    h1 {
+        @apply text-4xl mb-8
+    }
+    
+    h2 {
+    	@apply text-2xl mb-6
+    }
+    
+    h3 {
+    	@apply text-lg mb-2
+    }
+    
+    h6 {
+    	@apply text-xs
+    }
+    
+    span {
+    	@apply flex
+    }
+    
+    li {
+    	@apply items-center flex
+    }
+    
+    a {
+    	@apply flex
+    }
+}
+
+@layer components {
+    .sessao {
+        @apply flex flex-col w-full py-16;
+    }
+
+    .conteudo {
+        @apply w-5/6 mx-auto grid;
+    }
+    
+    .coluna {
+    	@apply flex flex-col
+    }
+
+    .oculto {
+        @apply opacity-0 pointer-events-none;
+    }
+    
+    .btn {
+    	@apply text-sm py-4 px-6 font-semibold rounded-full flex justify-center items-center text-center shadow-xl
+    }
+    
+    .primario {
+    	@apply text-black bg-orange-500 hover:bg-orange-600
+    }
+    
+    .secundario {
+    	@apply text-white bg-azul-500 hover:bg-azul-600
+    }
+    
+    .branco {
+    	@apply text-orange-950 bg-white hover:bg-gray-200
+    }
+    
+    .whatsapp {
+    	@apply text-white bg-[#25d366] hover:bg-[#128c7e]
+    }
+    
+    .box-servico {
+    	@apply coluna overflow-hidden justify-between mx-2 bg-white shadow-xl rounded-2xl min-w-[275px]
+    }
+    
+    .tab-titulo {
+    	@apply bg-orange-500 min-w-32 py-4 text-orange-950
+    }
+    
+    .tab-conteudo {
+    	@apply h-16 min-w-32 p-4 text-sm border-b-2 border-gray-100
+    }
+    
+    .campo-input {
+    	@apply p-2 border-[2px] border-gray-300 rounded outline-none
+    }
+    
+    .label-input {
+    	@apply text-xs transition-all duration-100 ease-out rounded-full absolute bg-white flex items-center py-0 px-1 h-4 w-fit left-4 -top-2
+    }
+    
+    .label-out {
+    	@apply left-0 -top-5 bg-none px-0
+    }
+}
+
+@layer utilities {
+    * {
+        //border: 1px solid red;
+    }
+    
+    .img-transp-sombra {
+  		filter: drop-shadow(0 2rem 1rem rgba(0, 0, 0, 0.2));
+	}
+}

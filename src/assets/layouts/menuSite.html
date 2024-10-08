@@ -1,0 +1,55 @@
+<header class="w-full m-0 p-0 overflow-hidden h-fit relative z-50">
+	<nav id="menu-nav" class="flex flex-col w-full py-4 justify-center fixed bg-white border-b-2 border-gray-100">
+		<div id="menu-mobile" class="conteudo h-12 flex justify-between">
+			<div id="btn-menu" class="flex aspect-square h-full">
+				<span class="flex m-auto">
+					<iconify-icon icon="lucide:align-justify" class="text-3xl"></iconify-icon>
+				</span>
+			</div>
+			<div id="logo-mobile" class="flex h-full">
+				<span class="flex flex-row m-auto items-center justify-center">
+					<iconify-icon icon="lucide:cat" class="text-3xl mr-2 text-orange-500"></iconify-icon>
+					<p class="m-auto text-2xl font-extrabold">Logo</p>
+				</span>
+			</div>
+			<div id="btn-perfil" class="flex aspect-square h-full">
+				<a href="/src/pages/minha-conta/">
+					<span class="flex m-auto">
+						<iconify-icon icon="lucide:circle-user-round" class="text-3xl"></iconify-icon>
+					</span>
+				</a>
+			</div>
+			<aside id="menu-mobile-lateral" class="z-50 fixed w-full h-dvh top-0 left-0 bg-black bg-opacity-70 transition-all oculto">
+				<div id="navlinks-mobile" class="flex flex-col h-full w-4/6 bg-white duration-500 ease-in-out transition-all -translate-x-full delay-100 opacity-0">
+					<span id="btn-fecha-menu" class="w-full flex justify-end p-4">
+						<iconify-icon icon="lucide:x" class="text-3xl text-orange-500"></iconify-icon>
+					</span>
+					<ul class="w-full my-4 flex flex-col">
+						<li class="py-3 px-4 z-30 "><a href="/">Home</a></li>
+						<li id="servicos" class="flex justify-between items-center py-3 px-4 z-30 ">
+							<p>Serviços</p>
+							<iconify-icon icon="lucide:chevron-down" class="flex text-2xl"></iconify-icon>
+						</li>
+						<div id="drop-down" class="flex relative transition-all bg-gray-200">
+							<div id="sub-menu-servicos" class="z-20 grid gap-4 py-0 px-6 transition-all absolute my-auto w-full opacity-0">
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-pronto">Pronto Socorro</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-consulta">Agendar uma Consulta</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-cirurgia">Cirurgias</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-banho">Banho e Tosa</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-vacina">Vacinação</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-interna">Internação</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-micro">Microchipagem</a></span>
+								<span class="text-gray-500"><a class="navlink" href="/src/pages/servicos/index.html#ancora-euta">Eutanásia</a></span>
+							</div>
+							<div id="sub-menu-bloco" class="h-0 duration-300 ease-in-out transition-all origin-top"></div>
+						</div>
+						<li class="py-3 px-4 z-30 "><a href="/src/pages/planos/">Conheça os Planos</a></li>
+						<li class="py-3 px-4 z-30 "><a href="/src/pages/unidades/">Nossas Unidades</a></li>
+						<li class="py-3 px-4 z-30 "><a href="/src/pages/contato/">Contato</a></li>
+					</ul>
+				</div>
+			</aside>
+		</div>
+		<div id="menu-desktop" class="hidden"></div>
+	</nav>
+</header>

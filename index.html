@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="/src/assets/css/output.css" rel="stylesheet">
+		<title>Veterinário</title>
+	</head>
+	<body class="">
+		<header id="menuSite" class="w-full m-0 p-0 overflow-hidden h-fit">
+			<!-- menu é carrefado aqui -->
+		</header>
+		<main class="w-full m-0 p-0 overflow-hidden pt-20">
+			<section id="banner" class="sessao">
+				<div class="conteudo">
+					<div class="my-4">
+						<h5 class="mb-4 text-orange-500">O melhor cuida para o seu pet</h5>
+						<h1 class="text-gray-800">Saúde, bem-estar e tudo de melhor qualidade para o seu melhor amigo</h1>
+						<p>Serviços veterinários de ponta e cuidados especiais para pets de todas as idades e tamanhos.</p>
+						<div class="flex justify-between w-full my-8">
+							<button class="btn primario w-[49%]" type="submit"><a href="/src/pages/planos/">Escolha um Plano</a></button>
+							<button class="btn whatsapp w-[49%]" type="submit"><iconify-icon icon="ic:outline-whatsapp" class="text-lg mr-2"></iconify-icon>Fale Conosco</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="sobre" class="sessao bg-azul-100">
+				<div class="conteudo mb-16">
+					<div class="">
+						<h2 class="w-5/6">Tudo o que você precisa para a saúde e felicidade do seu pet</h2>
+						<p>Somos a principal referência em cuidados veterinários, proporcionando serviços de qualidade excepcionais que garantam a saúde e o bem-estar dos pets, sempre com ética, empatia e um compromisso genuíno com cada animal e seu tutor.</p>
+					</div>
+					<div class="w-full mt-8">
+						<picture class="flex w-full m-auto aspect-square rounded-full">
+							<img id="caes-transp" class="w-full" src="./src/assets/img/caes-fundo-transparente.png" alt="" />
+						</picture>
+					</div>
+				</div>
+				<div class="conteudo">
+					<h2 class="">Nossos Serviços</h2>
+					<div id="servicos-slider" class="px-8 pb-12 pt-0 flex w-[130%] -ml-[15%] overflow-x-scroll">
+						<div class="box-servico">
+							<span class="coluna mb-8">
+								<h3 class="py-4 px-8 bg-orange-500">Pronto Socorro</h3>
+								<p class="py-0 px-8">Disponibilizamos atendimento de emergência 24 horas para animais que necessitam de cuidados imediatos.</p>
+							</span>
+							<span class="p-8">
+								<button class="btn primario" type="submit">Fale Conosco</button>
+							</span>
+						</div>
+						<div class="box-servico">
+							<span class="coluna mb-8">
+								<h3 class="py-4 px-8 bg-orange-500">Consultas</h3>
+								<p class="py-0 px-8">Oferecemos consultas veterinárias completas para garantir a saúde do seu animal de estimação.</p>
+							</span>
+							<span class="p-8">
+								<button class="btn primario" type="submit">Agende agora</button>
+							</span>
+						</div>
+						<div class="box-servico">
+							<span class="coluna mb-8">
+								<h3 class="py-4 px-8 bg-orange-500">Cirurgias</h3>
+								<p class="py-0 px-8">Nossas clínicas contam com centros cirúrgicos equipados e equipes de profissionais qualificados.</p>
+							</span>
+							<span class="p-8">
+								<button class="btn primario" type="submit">Saiba mais</button>
+							</span>
+						</div>
+						<div class="box-servico">
+							<span class="coluna mb-8">
+								<h3 class="py-4 px-8 bg-orange-500">Banho e Tosa</h3>
+								<p class="py-0 px-8">Proporcionamos serviços de banho e tosa com produtos de alta qualidade e cuidados especiais para cada tipo de pelagem.</p>
+							</span>
+							<span class="p-8">
+								<button class="btn primario" type="submit">Solicitar Orçamento</button>
+							</span>
+						</div>
+						<div class="box-servico">
+							<span class="coluna mb-8">
+								<h3 class="py-4 px-8 bg-orange-500">Muito mais</h3>
+								<p class="py-0 px-8">Confira todos os nossos serviços e planos</p>
+							</span>
+							<span class="p-8">
+								<button class="btn primario" type="submit"><a href="/src/pages/servicos/">Ver todos</a></button>
+							</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="encontre-unidade" class="sessao">
+				<div class="conteudo text-center">
+					<h2 class="">Encontre a unidade <strong class="text-orange-500">mais próxima de você!</strong></h2>
+				</div>
+				<div class="conteudo shadow-2xl p-8 rounded-2xl aspect-square bg-cover" style="background-image: url('/src/assets/img/consultorio-2.jpg')">
+					<div class="flex items-end h-full">
+						<span class="items-center w-full justify-between bg-white p-2 rounded-xl">
+							<input class="p-2 outline-0" type="search" name="unidades" id="unidades" value="" placeholder="Encontre uma unidade" />
+							<label for="unidades" class="p-2">
+								<iconify-icon icon="lucide:search" class="flex"></iconify-icon>
+							</label>
+						</span>
+					</div>
+				</div>
+			</section>
+			<section class="sessao bg-gray-100">
+				<div class="conteudo">
+					<h2 class="">Nossos planos</h2>
+				</div>
+				<div class="conteudo">
+					<div class="bg-white w-full flex overflow-hidden rounded-2xl">
+						<div class="w-2/5 border-r-2 border-gray-100">
+							<table class="w-full" border="0">
+								<thead class="">
+									<tr>
+										<th class="tab-titulo">Planos</th>
+									</tr>
+								</thead>
+								<tbody class="">
+									<tr><td class="tab-conteudo">Premium Gold</td></tr>
+									<tr><td class="tab-conteudo">Premium Silver</td></tr>
+									<tr><td class="tab-conteudo">Standart II</td></tr>
+									<tr><td class="tab-conteudo">Standart I</td></tr>
+									<tr><td class="tab-conteudo">Basic</td></tr>
+									<tr><td class="tab-conteudo">Free</td></tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="w-3/5 overflow-x-scroll">
+							<table class="w-full" border="0">
+								<thead class="">
+									<tr>
+										<th class="tab-titulo">Consulta</th>
+										<th class="tab-titulo">Pronto Socorro</th>
+										<th class="tab-titulo">Cirurgia</th>
+										<th class="tab-titulo">Vacinação</th>
+										<th class="tab-titulo">Banho e Tosa</th>
+									</tr>
+								</thead>
+								<tbody id="corpo-tabela">
+									<!-- -->
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<a class="mt-8" href="/src/pages/planos/">Confira planos e valores</a>
+				</div>
+				<picture class="flex -mb-16 mt-16">
+					<img class="" src="/src/assets/img/gatos-fundo-transparente.png" alt="" />
+				</picture>
+			</section>
+			<section class="sessao">
+				<div class="conteudo">
+					<div class="">
+						<h2 class="">Time de Especialistas</h2>
+						<span class="grid grid-cols-3 gap-4 shadow-lg p-6 rounded-2xl mb-8 bg-gray-100">
+							<picture class="flex rounded-full bg-gray-500 w-full aspect-square overflow-hidden border-2 border-orange-500">
+								<img class="object-cover" src="/src/assets/img/vet-01.jpg" alt="" />
+							</picture>
+							<div class="col-span-2">
+								<h3 class="text-orange-500">Marilda Gomez</h3>
+								<p class="text-xs font-semibold">CRMV: SP 12 345</p>
+								<p class="text-xs">Veterinário</p>
+							</div>
+						</span>
+						<span class="grid grid-cols-3 gap-4 shadow-lg p-6 rounded-2xl mb-8 bg-gray-100">
+							<picture class="flex rounded-full bg-gray-500 w-full aspect-square overflow-hidden border-2 border-orange-500">
+								<img class="object-cover" src="/src/assets/img/vet-02.jpg" alt="" />
+							</picture>
+							<div class="col-span-2">
+								<h3 class="text-orange-500">Alesson Santana</h3>
+								<p class="text-xs font-semibold">CRMV: SP 12 345</p>
+								<p class="text-xs">Veterinário</p>
+							</div>
+						</span>
+						<span class="grid grid-cols-3 gap-4 shadow-lg p-6 rounded-2xl mb-8 bg-gray-100">
+							<picture class="flex rounded-full bg-gray-500 w-full aspect-square overflow-hidden border-2 border-orange-500">
+								<img class="object-cover" src="/src/assets/img/vet-03.jpg" alt="" />
+							</picture>
+							<div class="col-span-2">
+								<h3 class="text-orange-500">Nicoly Dias</h3>
+								<p class="text-xs font-semibold">CRMV: SP 12 345</p>
+								<p class="text-xs">Veterinário</p>
+							</div>
+						</span>
+						<span class="grid grid-cols-3 gap-4 shadow-lg p-6 rounded-2xl bg-gray-100">
+							<picture class="flex rounded-full bg-gray-500 w-full aspect-square overflow-hidden border-2 border-orange-500">
+								<img class="object-cover" src="/src/assets/img/vet-04.jpg" alt="" />
+							</picture>
+							<div class="col-span-2">
+								<h3 class="text-orange-500">Lorena Bueno</h3>
+								<p class="text-xs font-semibold">CRMV: SP 12 345</p>
+								<p class="text-xs">Veterinário</p>
+							</div>
+						</span>
+					</div>
+				</div>
+			</section>
+			<section class="sessao bg-orange-500">
+				<div class="conteudo">
+					<div class="text-orange-950">
+						<h2 class="">Duvidas?</h2>
+						<p class="mb-8">Deixe seus dados que entraremos em contato para te dar uma explicação mais detalhada.</p>
+						<form class="grid gap-4" action="" method="get" accept-charset="utf-8">
+							<input class="rounded-md py-2 px-4" type="text" name="" id="" value="" placeholder="Nome Sobrenome" />
+							<input class="rounded-md py-2 px-4" type="text" name="" id="" value="" placeholder="11 98765-4321" />
+							<input class="rounded-md py-2 px-4" type="text" name="" id="" value="" placeholder="nome.sobrenome@email.com" />
+							<textarea class="rounded-md py-2 px-4" rows="4" cols="50"></textarea>
+							<input class="btn w-3/6 branco" type="submit" name="" id="" value="Enviar" />
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer id="rodapeSite" class="bg-orange-500 text-orange-950">
+			<!-- o rodapé do sote é renderizado aqui -->
+		</footer>
+		<script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+		<script src="./src/js/main.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
