@@ -26,13 +26,13 @@ Este projeto é um site dedicado a uma clínica veterinária e spa veterinário,
 2. Navegue até o diretório do projeto:
    ```git
    cd projeto_site-veterinario
-
 4. Instale as dependências do projeto com npm:
-```npm install```
-
+   ```git
+   npm install
 ## Compilação do Tailwind CSS
 Para compilar o CSS usando o Tailwind, execute o seguinte comando:
-```npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch```
+   ```git
+   npx tailwindcss -i ./src/assets/css/input.css -o ./src/assets/css/output.css --watch
 Isso irá monitorar as alterações no arquivo input.css e gerar o arquivo output.css automaticamente.
 
 ###Sinta-se à vontade para adicionar informações específicas ou personalizar conforme necessário!
