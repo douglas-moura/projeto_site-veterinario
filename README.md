@@ -21,13 +21,14 @@ Este projeto é um site dedicado a uma clínica veterinária e spa veterinário,
 ## Como Executar o Projeto
 
 1. Clone o repositório:
-   ```bash
+   ```git
    git clone https://github.com/douglas-moura/projeto_site-veterinario.git
 
 2. Navegue até o diretório do projeto:
-```cd projeto_site-veterinario```
+   ```git
+   cd projeto_site-veterinario
 
-3. Instale as dependências do projeto com npm:
+4. Instale as dependências do projeto com npm:
 ```npm install```
 
 ## Compilação do Tailwind CSS
