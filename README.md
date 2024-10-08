@@ -23,7 +23,6 @@ Este projeto é um site dedicado a uma clínica veterinária e spa veterinário,
 1. Clone o repositório:
    ```git
    git clone https://github.com/douglas-moura/projeto_site-veterinario.git
-
 2. Navegue até o diretório do projeto:
    ```git
    cd projeto_site-veterinario
