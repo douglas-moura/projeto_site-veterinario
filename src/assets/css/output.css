@@ -567,8 +567,8 @@ video {
 
 body{
   font-family: Fredoka, sans-serif;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
@@ -693,10 +693,7 @@ img{
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 1rem;
   text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -852,8 +849,15 @@ img{
 }
 
 .scroll-oculto::-webkit-scrollbar{
+  display: none;
   height: 0.25rem;
   border-radius: 9999px;
+}
+
+@media (min-width: 640px){
+  .scroll-oculto::-webkit-scrollbar{
+    display: block;
+  }
 }
 
 .scroll-oculto::-webkit-scrollbar-thumb{

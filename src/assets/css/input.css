@@ -11,7 +11,7 @@
 	}
 	
 	body {
-		@apply font-fredoka text-gray-600 text-base
+		@apply font-fredoka text-gray-600 text-sm
 	}
 	
 	main {
@@ -73,7 +73,7 @@
     }
     
     .btn {
-    	@apply text-sm py-4 px-6 font-semibold rounded-full flex justify-center items-center text-center shadow-xl
+    	@apply text-sm p-4 font-semibold rounded-full flex justify-center items-center text-center shadow-xl
     }
     
     .btn-xs {
@@ -121,7 +121,7 @@
     }
 
     .scroll-oculto::-webkit-scrollbar {
-        @apply h-1 rounded-full
+        @apply h-1 rounded-full hidden sm:block
     }
     
     .scroll-oculto::-webkit-scrollbar-thumb {
