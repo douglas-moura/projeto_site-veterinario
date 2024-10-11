@@ -1,5 +1,6 @@
 document.getElementById('btn-login').addEventListener('click', function() {
-	window.location.replace('./src/pages/minha-conta/')
+	event.preventDefault()
+	window.location.replace('/src/pages/minha-conta/')
 })
 
 function toggleLabel(id) {
