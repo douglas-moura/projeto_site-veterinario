@@ -851,6 +851,16 @@ img{
   padding-right: 0px;
 }
 
+.scroll-oculto::-webkit-scrollbar{
+  height: 0.25rem;
+  border-radius: 9999px;
+}
+
+.scroll-oculto::-webkit-scrollbar-thumb{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
 .invisible{
   visibility: hidden;
 }

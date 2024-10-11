@@ -83,7 +83,8 @@ function abrirSubmenuServicos(estado) {
 // função assincrona para buscar os planos disponíveis no db.json
 async function getPlanos() {
 	// verifica se o usuário está na página inicial para evitar erros
-	if(window.location.pathname == "/index.html")
+	console.log(window.location.pathname)
+	if(window.location.pathname == "/")
 	try {
 		// busca os planos na API do db.json
 		const response = await fetch('http://localhost:3000/planos')
