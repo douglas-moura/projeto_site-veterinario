@@ -19,7 +19,7 @@
 	}
 	
 	h1, h2, h3 {
-		@apply text-gray-700 font-extrabold
+		@apply text-gray-800 font-extrabold
 	}
 	
     h1 {
@@ -49,6 +49,10 @@
     a {
     	@apply flex
     }
+    
+    img {
+    	@apply object-cover
+    }
 }
 
 @layer components {
@@ -70,6 +74,10 @@
     
     .btn {
     	@apply text-sm py-4 px-6 font-semibold rounded-full flex justify-center items-center text-center shadow-xl
+    }
+    
+    .btn-xs {
+    	@apply text-xs py-2 px-3 font-semibold rounded-full flex justify-center items-center text-center shadow
     }
     
     .primario {

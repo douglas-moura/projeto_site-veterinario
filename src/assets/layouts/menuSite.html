@@ -1,7 +1,7 @@
 <header class="w-full m-0 p-0 overflow-hidden h-fit relative z-50">
 	<nav id="menu-nav" class="flex flex-col w-full py-4 justify-center fixed bg-white border-b-2 border-gray-100">
 		<div id="menu-mobile" class="conteudo h-12 flex justify-between">
-			<div id="btn-menu" class="flex aspect-square h-full">
+			<div id="btn-menu" class="flex aspect-square h-full" onclick="abrirMenu(true)">
 				<span class="flex m-auto">
 					<iconify-icon icon="lucide:align-justify" class="text-3xl"></iconify-icon>
 				</span>
@@ -20,8 +20,8 @@
 				</a>
 			</div>
 			<aside id="menu-mobile-lateral" class="z-50 fixed w-full h-dvh top-0 left-0 bg-black bg-opacity-70 transition-all oculto">
-				<div id="navlinks-mobile" class="flex flex-col h-full w-4/6 bg-white duration-500 ease-in-out transition-all -translate-x-full delay-100 opacity-0">
-					<span id="btn-fecha-menu" class="w-full flex justify-end p-4">
+				<div id="navlinks-mobile" class="flex flex-col h-full w-4/6 bg-white duration-500 ease-in-out transition-all -translate-x-full delay-100">
+					<span id="btn-fecha-menu" class="w-full flex justify-end p-4" onclick="abrirMenu(false)">
 						<iconify-icon icon="lucide:x" class="text-3xl text-orange-500"></iconify-icon>
 					</span>
 					<ul class="w-full my-4 flex flex-col">

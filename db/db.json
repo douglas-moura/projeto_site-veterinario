@@ -1,0 +1,109 @@
+{
+    "users": [
+        { "id": "1", "nome": "Douglas", "sobrenome": "Moura", "email": "douglas.moura@email.com", "tel": "11 98765-4321", "planoId": "6" },
+        { "id": "2", "nome": "Sarah", "sobrenome": "Gomes", "email": "sarah.gomes@email.com", "tel": "11 97856-3412", "planoId": "3" }
+    ],
+    "pets": [
+    	{
+    		"id": "1", "nome": "Luke", "userId": "1", "especie": "cachorro", "raca": "Vira-Lata", "nasc": "10/04/2016", "sexo": "m", "historico": []
+    	}
+    ],
+    "planos": [
+        {
+            "id": "1",
+            "titulo": "Free",
+            "cod": "free",
+            "valor": 0.00,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "consu": [false, ""],
+                "cirur": [false, ""],
+                "banho": [false, ""],
+                "vacin": [false, ""],
+                "inter": [false, ""],
+                "micro": [false, ""],
+                "eutan": [false, ""]
+            }
+        },
+        {
+            "id": "2",
+            "titulo": "Basic",
+            "cod": "basi",
+            "valor": 9.89,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "banho": [true, "1 sessão de banho e tosa por mês"],
+                "consu": [true, "Até 1 consulta por trimestre"],
+                "vacin": [true, "Vacinação periódica"],
+                "cirur": [false, ""],
+                "inter": [false, ""],
+                "micro": [false, ""],
+                "eutan": [false, ""]
+            }
+        },
+        {
+            "id": "3",
+            "titulo": "Standart I",
+            "cod": "std1",
+            "valor": 19.90,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "banho": [true, "1 sessão de banho e tosa por mês"],
+                "consu": [true, "Até 1 consulta por mês"],
+                "vacin": [true, "Vacinação periódica"],
+                "cirur": [true, "1 cirurgia por mês"],
+                "inter": [true, "Internação integral"],
+                "micro": [false, ""],
+                "eutan": [false, ""]
+            }
+        },
+        {
+            "id": "4",
+            "titulo": "Standart II",
+            "cod": "std2",
+            "valor": 24.90,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "banho": [true, "2 sessão de banho e tosa por mês"],
+                "consu": [true, "Até 2 consultas por mês"],
+                "vacin": [true, "Vacinação periódica"],
+                "cirur": [true, "1 cirurgia por mês"],
+                "inter": [true, "Internação integral"],
+                "micro": [false, ""],
+                "eutan": [false, ""]
+            }
+        },
+        {
+            "id": "5",
+            "titulo": "Premium Silver",
+            "cod": "preS",
+            "valor": 39.90,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "banho": [true, "1 sessão de banho e tosa por semana"],
+                "consu": [true, "Até 4 consultas por mês"],
+                "vacin": [true, "Vacinação periódica"],
+                "cirur": [true, "1 cirurgia por mês"],
+                "inter": [true, "Internação integral"],
+                "micro": [true, "Microchipagem (até 2 pets)"],
+                "eutan": [true, "Eutanásia e serviços funerários"]
+            }
+        },
+        {
+            "id": "6",
+            "titulo": "Premium Gold",
+            "cod": "preG",
+            "valor": 49.90,
+            "adds": {
+                "pront": [true, "Pronto socorro e resgate 24h"],
+                "banho": [true, "2 sessões de banho e tosa por semana"],
+                "consu": [true, "Até 4 consultas por mês"],
+                "vacin": [true, "Vacinação periódica"],
+                "cirur": [true, "2 cirurgias por mês"],
+                "inter": [true, "Internação integral"],
+                "micro": [true, "Microchipagem (até 4 pets)"],
+                "eutan": [true, "Eutanásia e serviços funerários"]
+            }
+        }
+    ]
+}
