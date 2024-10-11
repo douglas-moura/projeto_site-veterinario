@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.keys(componentesSite).forEach(key => {
     	// código externo
     	// busca os elementos na pasta layouts em assets
-	    fetch("/src/assets/layouts/" + componentesSite[key].id + ".html")
+	    fetch("./src/assets/layouts/" + componentesSite[key].id + ".html")
 	        .then(response => response.text())
 	        .then(data => {
 	            // Insere o conteúdo carregado no elemento
