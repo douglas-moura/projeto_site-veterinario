@@ -1,6 +1,6 @@
 <header class="w-full m-0 p-0 overflow-hidden h-fit relative z-50">
 	<nav id="menu-nav" class="flex flex-col w-full py-4 justify-center fixed bg-white border-b-2 border-gray-100">
-		<div id="menu-mobile" class="conteudo h-12 flex justify-between">
+		<div id="menu-mobile" class="conteudo h-12 flex justify-between lg:hidden">
 			<div id="btn-menu" class="flex aspect-square h-full" onclick="abrirMenu(true)">
 				<span class="flex m-auto">
 					<iconify-icon icon="lucide:align-justify" class="text-3xl"></iconify-icon>
@@ -50,6 +50,20 @@
 				</div>
 			</aside>
 		</div>
-		<div id="menu-desktop" class="hidden"></div>
+		<div id="menu-desktop" class="conteudo h-12 hidden grid-cols-10 lg:grid">
+			<div id="logo-desktop" class="flex h-full  col-span-3">
+				<span class="items-center">
+					<iconify-icon icon="lucide:cat" class="text-3xl mr-2 text-orange-500"></iconify-icon>
+					<p class="m-auto text-2xl font-extrabold">Logo</p>
+				</span>
+			</div>
+			<ul class="w-full flex justify-between col-span-7">
+				<li class="py-2 z-30"><a href="/">Home</a></li>
+				<li class="py-2 z-30"><a href="/src/pages/servicos/">Serviços</a></li>
+				<li class="py-2 z-30"><a href="/src/pages/planos/">Conheça os Planos</a></li>
+				<li class="py-2 z-30"><a href="/src/pages/unidades/">Nossas Unidades</a></li>
+				<li class="py-2 z-30"><a href="/src/pages/contato/">Contato</a></li>
+			</ul>
+		</div>
 	</nav>
 </header>
