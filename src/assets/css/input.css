@@ -47,7 +47,7 @@
     }
     
     a {
-    	@apply flex
+    	@apply flex cursor-pointer
     }
     
     img {
@@ -61,7 +61,7 @@
     }
 
     .conteudo {
-        @apply w-5/6 mx-auto grid lg:w-8/12
+        @apply w-5/6 mx-auto grid lg:w-8/12 2xl:w-6/12
     }
     
     .coluna {
@@ -73,7 +73,7 @@
     }
     
     .btn {
-    	@apply text-sm p-4 font-semibold rounded-full flex justify-center items-center text-center shadow-xl
+    	@apply text-sm p-4 font-semibold rounded-full flex justify-center items-center text-center shadow-xl cursor-pointer
     }
     
     .btn-xs {
@@ -131,7 +131,7 @@
 
 @layer utilities {
     * {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
     
     .img-transp-sombra {
