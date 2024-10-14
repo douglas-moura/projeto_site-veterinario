@@ -11,7 +11,7 @@
 	}
 	
 	body {
-		@apply font-fredoka text-gray-600 text-sm
+		@apply font-fredoka text-gray-600 text-sm xl:text-base
 	}
 	
 	main {
@@ -23,11 +23,11 @@
 	}
 	
     h1 {
-        @apply text-4xl mb-8
+        @apply text-4xl mb-8 xl:text-6xl
     }
     
     h2 {
-    	@apply text-2xl mb-6
+    	@apply text-2xl mb-6 xl:text-3xl
     }
     
     h3 {
@@ -131,7 +131,7 @@
 
 @layer utilities {
     * {
-        //border: 1px solid red;
+        border: 1px solid red;
     }
     
     .img-transp-sombra {
