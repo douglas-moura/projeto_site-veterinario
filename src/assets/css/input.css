@@ -57,11 +57,11 @@
 
 @layer components {
     .sessao {
-        @apply flex flex-col w-full py-16;
+        @apply flex flex-col w-full py-16
     }
 
     .conteudo {
-        @apply w-5/6 mx-auto grid;
+        @apply w-5/6 mx-auto grid lg:w-8/12
     }
     
     .coluna {
@@ -131,7 +131,7 @@
 
 @layer utilities {
     * {
-        //border: 1px solid red;
+        border: 1px solid red;
     }
     
     .img-transp-sombra {
